@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE8A53AB1D58DF7D00EFCF94 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A53AA1D58DF7D00EFCF94 /* Hero.m */; };
+		EE8A53AE1D58F62400EFCF94 /* HeroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8A53AD1D58F62400EFCF94 /* HeroTableViewController.m */; };
+		EE8A53B01D590E5300EFCF94 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8A53AF1D590E5300EFCF94 /* Storyboard.storyboard */; };
 		EED649A81D468B62005FFF98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED649A71D468B62005FFF98 /* main.m */; };
 		EED649AB1D468B62005FFF98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED649AA1D468B62005FFF98 /* AppDelegate.m */; };
-		EED649AE1D468B62005FFF98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED649AD1D468B62005FFF98 /* ViewController.m */; };
-		EED649B11D468B62005FFF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED649AF1D468B62005FFF98 /* Main.storyboard */; };
+		EED649AE1D468B62005FFF98 /* HeroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED649AD1D468B62005FFF98 /* HeroDetailViewController.m */; };
 		EED649B31D468B62005FFF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED649B21D468B62005FFF98 /* Assets.xcassets */; };
 		EED649B61D468B62005FFF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED649B41D468B62005FFF98 /* LaunchScreen.storyboard */; };
+		EED649BE1D469A3F005FFF98 /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = EED649BD1D469A3F005FFF98 /* heroes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE8A53A91D58DF7D00EFCF94 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		EE8A53AA1D58DF7D00EFCF94 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		EE8A53AC1D58F62400EFCF94 /* HeroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroTableViewController.h; sourceTree = "<group>"; };
+		EE8A53AD1D58F62400EFCF94 /* HeroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewController.m; sourceTree = "<group>"; };
+		EE8A53AF1D590E5300EFCF94 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		EED649A31D468B62005FFF98 /* HeroTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED649A71D468B62005FFF98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EED649A91D468B62005FFF98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EED649AA1D468B62005FFF98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EED649AC1D468B62005FFF98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EED649AD1D468B62005FFF98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EED649B01D468B62005FFF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EED649AC1D468B62005FFF98 /* HeroDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroDetailViewController.h; sourceTree = "<group>"; };
+		EED649AD1D468B62005FFF98 /* HeroDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroDetailViewController.m; sourceTree = "<group>"; };
 		EED649B21D468B62005FFF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED649B51D468B62005FFF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED649B71D468B62005FFF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED649BD1D469A3F005FFF98 /* heroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heroes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,16 @@
 		EED649A51D468B62005FFF98 /* HeroTracker */ = {
 			isa = PBXGroup;
 			children = (
+				EED649BD1D469A3F005FFF98 /* heroes.json */,
 				EED649A91D468B62005FFF98 /* AppDelegate.h */,
 				EED649AA1D468B62005FFF98 /* AppDelegate.m */,
-				EED649AC1D468B62005FFF98 /* ViewController.h */,
-				EED649AD1D468B62005FFF98 /* ViewController.m */,
-				EED649AF1D468B62005FFF98 /* Main.storyboard */,
+				EE8A53A91D58DF7D00EFCF94 /* Hero.h */,
+				EE8A53AA1D58DF7D00EFCF94 /* Hero.m */,
+				EED649AC1D468B62005FFF98 /* HeroDetailViewController.h */,
+				EED649AD1D468B62005FFF98 /* HeroDetailViewController.m */,
+				EE8A53AC1D58F62400EFCF94 /* HeroTableViewController.h */,
+				EE8A53AD1D58F62400EFCF94 /* HeroTableViewController.m */,
+				EE8A53AF1D590E5300EFCF94 /* Storyboard.storyboard */,
 				EED649B21D468B62005FFF98 /* Assets.xcassets */,
 				EED649B41D468B62005FFF98 /* LaunchScreen.storyboard */,
 				EED649B71D468B62005FFF98 /* Info.plist */,
@@ -137,8 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EED649B61D468B62005FFF98 /* LaunchScreen.storyboard in Resources */,
+				EE8A53B01D590E5300EFCF94 /* Storyboard.storyboard in Resources */,
+				EED649BE1D469A3F005FFF98 /* heroes.json in Resources */,
 				EED649B31D468B62005FFF98 /* Assets.xcassets in Resources */,
-				EED649B11D468B62005FFF98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +163,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED649AE1D468B62005FFF98 /* ViewController.m in Sources */,
+				EED649AE1D468B62005FFF98 /* HeroDetailViewController.m in Sources */,
 				EED649AB1D468B62005FFF98 /* AppDelegate.m in Sources */,
 				EED649A81D468B62005FFF98 /* main.m in Sources */,
+				EE8A53AE1D58F62400EFCF94 /* HeroTableViewController.m in Sources */,
+				EE8A53AB1D58DF7D00EFCF94 /* Hero.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EED649AF1D468B62005FFF98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EED649B01D468B62005FFF98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EED649B41D468B62005FFF98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,6 +308,7 @@
 				EED649BC1D468B62005FFF98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
